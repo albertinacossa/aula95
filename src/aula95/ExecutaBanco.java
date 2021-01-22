@@ -14,7 +14,7 @@ public class ExecutaBanco {
 			double deposito;
 			double levantamento;
 			
-			cabecalho();
+			
 			
 			System.out.println(" Informe o numero da conta");
 			contaDoCliente = entradaPorteclado.nextInt();
@@ -63,18 +63,10 @@ public class ExecutaBanco {
 			
 			System.out.println();
 			
-			rodape();	
+			
 		}
 				
-	static void cabecalho() {
-		System.out.println( "-----------BANCO COMERCIAL CERTO------------");
-		System.out.println("----------- ADMINISTRACAO GERAL--------------");
-		System.out.println("----------Direccao de Investimentos ----------");
-	}
-	static void rodape() {
-		System.out.println(" Avenida 25 de Setembro. n. 223 - 1andar");
-		System.out.println(" Contactos: Telefone - 84555888888/9  - email: bancocerto@gmail.com ");
-	}
+	
 	}
 
 
